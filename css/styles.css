@@ -16,6 +16,8 @@ h2 {
   line-height: 1.5;
 }
 
+/* Title */
+
 #title {
   background-color: #ff4c68;
   color: #fff;
@@ -116,7 +118,7 @@ h2 {
 }
 
 .testimonial-img {
-  width: 30%;
+  width: 300px;
   border-radius: 100%;
   margin: 20px;
 }
@@ -124,6 +126,8 @@ h2 {
 .carousel-item {
   padding: 7% 15%;
 }
+
+/* Press */
 
 #press {
   background-color: #ef8172;
@@ -133,8 +137,17 @@ h2 {
 
 .press-logo {
   width: 15%;
-  margin: 20px 20px 50px;
+  margin: 5% 2% 8%;
 }
+
+@media (max-width: 1028px) {
+  .press-logo {
+    width: 25%;
+    margin: 5% 5% 8%
+  }
+}
+
+/* Pricing */
 
 #pricing {
   padding: 100px;
@@ -145,6 +158,8 @@ h2 {
   padding: 3% 2%;
   text-align: center;
 }
+
+/* CTA */
 
 #cta {
   background-color: #ff4c68;
